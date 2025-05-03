@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Colador de Notas",
+  "version": "1.0",
+  "description": "Uma extensão para passar notas do Excel para o QAcadêmico sem muito estresse",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["storage", "activeTab", "scripting"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
