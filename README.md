@@ -6,22 +6,21 @@ Este guia explica como instalar a extensão do Chrome no seu navegador.
 
 * **Google Chrome:** Certifique-se de ter o navegador Google Chrome instalado no seu computador. Você pode baixá-lo em [https://www.google.com/chrome/](https://www.google.com/chrome/).
 
-## Baixar a extensão
-
-Baixe o arquivo `.crx` [clicando aqui](/package/qacademico-chrome-extension.crx).
-## Passos para Instalação
-
+## Passos para Instalação (Modo de Desenvolvedor)
+ 
 Como esta extensão ainda não foi publicada na Chrome Web Store, você precisará instalá-la através do "Modo de Desenvolvedor" do Chrome. Siga estes passos:
 
 1.  **Abra o Chrome:** Inicie o navegador Google Chrome no seu computador.
 
-1.  **Acesse a página de Extensões:** Na barra de endereços do Chrome, digite `chrome://extensions/` e pressione a tecla **Enter**. Isso abrirá a página de gerenciamento de extensões.
+2.  **Acesse a página de Extensões:** Na barra de endereços do Chrome, digite `chrome://extensions/` e pressione a tecla **Enter**. Isso abrirá a página de gerenciamento de extensões.
 
-1.  **Ative o "Modo de Desenvolvedor":** No canto superior direito da página de Extensões, procure por um interruptor ou caixa de seleção rotulada como "Modo de desenvolvedor". Clique no interruptor para ativá-lo. Você deverá ver novas opções aparecerem na parte superior da página.
+3.  **Ative o "Modo de Desenvolvedor":** No canto superior direito da página de Extensões, procure por um interruptor ou caixa de seleção rotulada como "Modo de desenvolvedor". Clique no interruptor para ativá-lo. Você deverá ver novas opções aparecerem na parte superior da página.
 
-1.  **Arraste e solte o arquivo `.crx`:** Localize o arquivo `.crx` da sua extensão no seu computador. Clique e arraste o arquivo .crx diretamente para a janela da página chrome://extensions/
+4.  **Carregue a extensão:** No canto superior esquerdo da página de Extensões, clique no botão **"Carregar sem compactar"**.
 
-1.  **Confirme a instalação:** O Chrome exibirá uma caixa de diálogo de confirmação perguntando se você deseja adicionar a extensão. Clique em "Adicionar extensão".
+5.  **Selecione a pasta da extensão:** Uma janela de diálogo será aberta para que você possa selecionar a pasta da extensão. Navegue até a pasta onde você salvou os arquivos da extensão (o arquivo `manifest.json` deve estar diretamente dentro desta pasta) e clique em **"Selecionar pasta"** ou **"Abrir"**.
+
+6.  **Extensão Instalada:** A extensão agora estará instalada no seu Chrome e você deverá vê-la listada na página de Extensões. Se a extensão tiver um ícone, ele aparecerá na barra de ferramentas do Chrome (geralmente no canto superior direito).
 
 ## Utilizando a Extensão
 
