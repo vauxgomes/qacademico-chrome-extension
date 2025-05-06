@@ -4,7 +4,17 @@
   "version": "1.0",
   "description": "Uma extensão para passar notas do Excel para o QAcadêmico sem muito estresse",
   "action": {
-    "default_popup": "popup.html"
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
   },
   "permissions": ["storage", "activeTab", "scripting"],
   "content_scripts": [
